@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Development environment
+.env.local
+.env.development
+.env.test
